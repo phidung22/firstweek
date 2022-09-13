@@ -1,0 +1,24 @@
+POST http://localhost:3000/api/skill
+Content-Type: application/json
+
+{
+    "name": "TypeScript"
+}
+
+###
+
+GET http://localhost:3000/api/skill
+Content-Type: application/json
+
+
+###
+
+PUT http://localhost:3000/api/skill
+Content-Type: application/json
+
+
+###
+
+DELETE  http://localhost:3000/api/skill
+Content-Type: application/json
+

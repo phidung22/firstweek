@@ -1,0 +1,31 @@
+POST http://localhost:3000/api/wilder
+Content-Type: application/json
+
+{
+    "name": "Dung Phi Ngoc"
+}
+
+###
+
+GET http://localhost:3000/api/wilder
+Content-Type: application/json
+
+
+###
+
+PUT http://localhost:3000/api/wilder
+Content-Type: application/json
+
+{
+    "idToUpdate": 11,
+    "nameToUpdate": "Phi Dung"
+}
+
+###
+
+DELETE  http://localhost:3000/api/wilder
+Content-Type: application/json
+
+{
+    "idToDelete": 1
+}
